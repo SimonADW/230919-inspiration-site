@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS Excersizes</title>	
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+	<main>
+		<h1>Video test</h1>
+			
+			<video width="800px" height="auto" class="clip" >
+				<source src="2-BCMH.ogg">
+			</video>
+	</main>
+
+	<script>
+		 // Targeting video element  
+	let clip = document.querySelector(".clip") 
+  
+  /* Applying mouseover event on video clip  
+  and then we call play() function to play  
+  the video when the mouse is over the video */ 
+  clip.addEventListener("mouseover", function (e) { 
+	  clip.play(); 
+  }) 
+
+  /* Applying mouseout event on video clip  
+  and then we call pause() function to stop  
+  the video when the mouse is out the video */ 
+  clip.addEventListener("mouseout", function (e) { 
+	  clip.pause(); 
+  }) 
+	</script>
+</body>
+</html>
+</body>
+</html>
