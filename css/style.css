@@ -1,0 +1,57 @@
+:root {
+	font-size: var(--font-size-base);
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+body {
+	width: 90vw;
+	margin: 0 auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.image-caption-pair {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: var(--margin-sections);
+
+}
+
+video {
+	width: 100%;
+}
+
+.image-caption-pair__text-aligment-container {
+	height: 10rem;
+	background: var(--color-primary);
+}
+
+h2, h3, h4 {
+margin-bottom: var(--margin-small);
+}
+
+h3 {
+	font-size: var(--font-size-small);
+}
+
+h4 {
+	font-size: var(--font-size-small);
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+
+hr {
+	margin: 0 auto;
+	margin-bottom: var(--margin-sections);
+	width: 80%;
+	background: black;
+}
