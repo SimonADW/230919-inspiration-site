@@ -1,10 +1,12 @@
 :root {
 
-	--font-size-base: 24px;
-	--font-size-small: 0.9rem;
-	--font-size-medium: 1.3rem;
-	--font-size-large: 2rem;
-	--font-size-xlarge: 2.5rem;
+	--font-size-base: 18px;
+	--font-size-small: 1rem;
+	--font-size-medium: 1.6rem;
+
+	--desktop-font-size-base: 26px;
+	--desktop-font-size-small: 1rem;
+	--desktop-font-size-medium: 1.6rem;
 
 	/* --font-leading-base: 1rem;
 	--font-leading-small: 1rem;
