@@ -8,6 +8,16 @@ header {
 	justify-content: space-between;
 }
 
+.headings h1 {
+	font-size: var(--font-size-medium);
+	letter-spacing: 0.15rem;
+}
+
+.headings h4 {
+	font-size: var(--font-size-small);
+	letter-spacing: 0.35rem;
+}
+
 body {
 	width: 90vw;
 	max-width: 1600px ;
@@ -18,16 +28,10 @@ header {
 	margin-bottom: calc(var(--margin-sections)*2);
 	margin-top: calc(var(--margin-sections)*2);
 }
+
 .headings {
 	display: flex;
 	flex-direction: column;	
-}
-.headings h1 {
-	letter-spacing: 0.2rem;
-}
-
-.headings h4 {
-	letter-spacing: 0.65rem;
 }
 
 .image-caption-pair {
@@ -69,8 +73,29 @@ hr {
 	background: black;
 }
 
+footer {
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+	gap: var(--margin-small);
+	
+}
 
 @media screen and (min-width: 800px) {
+
+	:root {
+		font-size: var(--desktop-font-size-base);
+	}
+	
+	.headings h1 {
+		font-size: 2rem;
+		letter-spacing: 0.8rem;
+	}
+	
+	.headings h4 {
+		letter-spacing: 0.8rem;
+	}
+	
 	hr {
 		display: none;
 	}
