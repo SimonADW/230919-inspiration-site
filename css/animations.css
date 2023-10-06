@@ -100,3 +100,14 @@ animation: x-animation-bottom 400ms ease-in-out 100ms forwards;
 	}
 }
 
+
+/* popout on hover animation */
+
+.image-caption-pair {
+	transition: all 300ms ease-in-out;
+}
+
+.image-caption-pair:hover {
+	transform: scale(1.02);
+
+}
