@@ -10,13 +10,24 @@ header {
 
 body {
 	width: 90vw;
+	max-width: 1600px ;
 	margin: 0 auto;
 }
 
+header {
+	margin-bottom: calc(var(--margin-sections)*2);
+	margin-top: calc(var(--margin-sections)*2);
+}
 .headings {
 	display: flex;
-	flex-direction: column;
-	
+	flex-direction: column;	
+}
+.headings h1 {
+	letter-spacing: 0.2rem;
+}
+
+.headings h4 {
+	letter-spacing: 0.65rem;
 }
 
 .image-caption-pair {
