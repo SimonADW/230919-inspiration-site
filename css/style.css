@@ -129,6 +129,7 @@ hr {
 	margin-bottom: var(--margin-sections);
 	width: 80%;
 	background: black;
+	border: 1px solid var(--color-foreground);
 }
 
 footer {
