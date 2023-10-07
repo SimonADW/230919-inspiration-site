@@ -14,7 +14,7 @@
 	--font-leading-medium: 1rem;
 	--font-leading-large: 1rem; */
 
-	--spacing-small: var(--font-leading-base);
+	--spacing-small: 1rem;
 	--spacing-medium: 2rem;
 	--spacing-large: 4rem;
 

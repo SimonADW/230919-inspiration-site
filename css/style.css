@@ -23,10 +23,39 @@ header {
 
 .header__x-line {
 	width: 100%;
-	height: 5px;
+	height: 4px;
 	background: black;
 
 }
+
+.nav-drawer {
+	width: 100vw;
+	height: 65vh;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: var(--font-size-medium);
+	font-weight: 600;
+	background: var(--color-background);
+	position: absolute;
+}
+
+.toogle-display {
+	display: none;
+
+}
+
+.nav-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: var(--margin-sections);
+
+}
+
+/*  Main */
 
 .headings h1 {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -100,8 +129,15 @@ footer {
 	display: flex;
 	flex-direction: column;
 	place-items: center;
-	gap: var(--margin-small);
-	
+	margin-top: calc(var(--margin-sections)*4);
+	margin-bottom: var(--margin-sections);
+	gap: var(--margin-sections);
+}
+
+.footer__nav {
+	display: flex;
+	gap: var(--spacing-small);
+
 }
 
 @media screen and (min-width: 800px) {
