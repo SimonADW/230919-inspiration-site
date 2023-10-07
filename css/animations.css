@@ -1,4 +1,19 @@
 
+/* Collection fade in animation */
+.headings h4 {
+    animation: fadeInAnimation ease 4.5s forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
 /* Animated header (menu/x-animation) */
 
 
@@ -111,3 +126,4 @@ animation: x-animation-bottom 400ms ease-in-out 100ms forwards;
 	transform: scale(1.02);
 
 }
+
