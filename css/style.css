@@ -4,10 +4,19 @@
 	color: var(--color-foreground);
 }
 
+body {
+	width: 90vw;
+	max-width: 1600px ;
+	margin: 0 auto;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: calc(var(--margin-sections)*2);
+	margin-top: calc(var(--margin-sections)*2);
+	
 }
 
 /*  TODO convert to rem and responsive */
@@ -65,35 +74,24 @@ transition: all 300ms ease;
 	transform: scale(1.2);
 }
 
-/*  Main */
-
 .headings h1 {
 	font-family: var(--font-headlines);
 	font-weight: 500;
 	font-size: var(--font-size-large);
 	letter-spacing: 0.15rem;
-	
 }
 
 .headings h4 {
 	letter-spacing: 0.35rem;
 }
 
-body {
-	width: 90vw;
-	max-width: 1600px ;
-	margin: 0 auto;
-}
-
-header {
-	margin-bottom: calc(var(--margin-sections)*2);
-	margin-top: calc(var(--margin-sections)*2);
-}
-
 .headings {
 	display: flex;
 	flex-direction: column;	
 }
+
+/*  Main */
+
 
 .image-caption-pair {
 	display: flex;
