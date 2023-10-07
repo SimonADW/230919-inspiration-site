@@ -16,14 +16,11 @@
 	--font-leading-medium: 1rem;
 	--font-leading-large: 1rem; */
 
-	--spacing-small: 1rem;
-	--spacing-medium: 2rem;
-	--spacing-large: 4rem;
-
 	--color-background: white;
 	--color-foreground: black;
 	--color-primary: #F1EADE;
 
 	--margin-small: 0.34rem;
+	--margin-large: 1rem;
 	--margin-sections: 0.83rem;
 }

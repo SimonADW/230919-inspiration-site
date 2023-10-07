@@ -100,7 +100,8 @@ video {
 .image-caption-pair__text-aligment-container {
 	background: var(--color-primary);
 	width: 100%;
-	height: 			
+	height: ; /* TODO: Mobile height same as video */	
+	padding: 5px;	
 
 }
 
@@ -143,8 +144,7 @@ footer {
 
 .footer__nav {
 	display: flex;
-	gap: var(--spacing-small);
-
+	gap: var(--margin-large);
 }
 
 @media screen and (min-width: 800px) {
@@ -181,5 +181,6 @@ footer {
 	
 	.image-caption-pair__text-aligment-container {
 		width: 50%;
+		padding: 30px;
 	}
 }
