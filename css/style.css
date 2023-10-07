@@ -1,6 +1,6 @@
 :root {
 	font-size: var(--font-size-base);
-	font-family: "inter", sans-serif;
+	font-family: var(--font-content);
 }
 
 header {
@@ -30,14 +30,15 @@ header {
 
 .nav-drawer {
 	width: 100vw;
-	height: 65vh;
+	height: 40vh;
 	top: 0;
 	left: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: var(--font-headlines);
 	font-size: var(--font-size-medium);
-	font-weight: 600;
+	font-weight: 400;
 	background: var(--color-background);
 	position: absolute;
 }
@@ -58,7 +59,7 @@ header {
 /*  Main */
 
 .headings h1 {
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: var(--font-headlines);
 	font-weight: 500;
 	font-size: var(--font-size-large);
 	letter-spacing: 0.15rem;
@@ -105,6 +106,11 @@ video {
 
 h2, h3, h4 {
 	margin-bottom: var(--margin-small);
+}
+
+h2 {
+	font-family: var(--font-headlines);
+	font-weight: normal;
 }
 
 h3 {
