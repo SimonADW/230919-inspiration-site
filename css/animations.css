@@ -124,6 +124,5 @@ animation: x-animation-bottom 400ms ease-in-out 100ms forwards;
 
 .image-caption-pair:hover {
 	transform: scale(1.02);
-
 }
 
