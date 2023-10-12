@@ -50,7 +50,7 @@ let isDark = false;
 function toggleDark() {
 	if(!isDark) {
 		const root = document.documentElement;
-		root.style.setProperty("--color-background", "#162e42");
+		root.style.setProperty("--color-background", "#162e42");  /* Black alternative #000000 */
 		root.style.setProperty("--color-foreground", "#eef0de");
 		root.style.setProperty("--color-primary", "linear-gradient(to left, #53442a, #362d2d)");
 		document.querySelector(".mode").textContent = "Light";

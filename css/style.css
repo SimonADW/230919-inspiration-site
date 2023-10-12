@@ -2,6 +2,7 @@
 	font-size: var(--font-size-base);
 	font-family: var(--font-content);
 	color: var(--color-foreground);
+	transition: all 700ms ease;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
 	margin: 0 auto;
 	background: var(--color-background);
 	color: inherit;
+
 }
 
 header {
@@ -21,12 +23,14 @@ header {
 }
 
 .mode {
-	width: 2.6rem;
-	height: 1rem;
-	border: 3px solid var(--color-foreground);
+	width: 2.5rem;
+	height: 1.2rem;
+	border: 2px solid var(--color-foreground);
 	border-radius: 10px;
 	color: var(--color-foreground);
-	font-size: var(--font-size-base);	
+	font-size: var(--font-size-xsmall);	
+	transform: rotate(90deg);
+	margin-left: auto;
 	
 }
 
@@ -220,5 +224,17 @@ footer {
 	.image-caption-pair__text-aligment-container {
 		width: 50%;
 		padding: 30px;
+	}
+
+	.mode {
+		font-size: var(--font-size-base);	
+		transform: translate(0, 15rem);
+		margin-left: none;	
+		position: fixed;
+		top: 10rem;
+		right: 0;
+		transform: rotate(90deg);
+		border-width: 3px ;
+
 	}
 }
