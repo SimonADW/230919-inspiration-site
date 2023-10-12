@@ -14,34 +14,21 @@
 }
 
 
-/* Animated header (menu/x-animation) */
-
+/* Animated hamburger (menu/x-animation) */
 
 .header__x-animation-top-line {
 	transform-origin: 100% 100%;
 }
 
-.header__x-animation:hover .header__x-animation-top-line {
-	animation: x-animation-top 400ms ease-in-out 100ms forwards;
-	
-}
-
 .header__x-animation-center-line {
 	opacity: 1;
-}
-
-.header__x-animation:hover .header__x-animation-center-line {
 	transition: opacity 400ms linear;
-	opacity: 0;
 }
 
 .header__x-animation-bottom-line {
 	transform-origin: 100% 0%;
 }
 
-.header__x-animation:hover .header__x-animation-bottom-line {
-animation: x-animation-bottom 400ms ease-in-out 100ms forwards;
-}
 
 @keyframes x-animation-top {
 	0% {
@@ -69,7 +56,7 @@ animation: x-animation-bottom 400ms ease-in-out 100ms forwards;
 	}
 
 	100% {
-		transform: rotate(-45deg) scaleX(118%)
+		transform: rotate(-45deg) scaleX(122%)
 		;
 	}
 }
@@ -100,7 +87,7 @@ animation: x-animation-bottom 400ms ease-in-out 100ms forwards;
 	}
 
 	100% {
-		transform: rotate(45deg) scaleX(118%)
+		transform: rotate(45deg) scaleX(122%)
 		;
 	}
 }
@@ -139,7 +126,7 @@ animation: x-animation-bottom 400ms ease-in-out 100ms forwards;
 	}
 }
 
-/* popout on hover animation */
+/* popout on hover animation | TODO reconsider this animation
 
 .image-caption-pair {
 	transition: all 300ms ease-in-out;
@@ -149,4 +136,5 @@ animation: x-animation-bottom 400ms ease-in-out 100ms forwards;
 	transform: scale(1.02);
 }
 
+ */
 
