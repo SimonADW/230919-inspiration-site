@@ -1,4 +1,16 @@
 
+const hamburger = document.querySelector(".header__x-animation");
+const drawer = document.querySelector(".nav-drawer");
+let isOpenDrawer = false;
+
+hamburger.addEventListener("click", ()=> {
+	drawer.style.animation = isOpenDrawer ? "drawerSlideUp 400ms forwards" : "drawerSlideDown  400ms forwards";
+	isOpenDrawer = !isOpenDrawer;
+})
+
+
+
+
 
 
 const playClip = function (clipNumber) {

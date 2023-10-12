@@ -8,6 +8,8 @@ body {
 	width: 90vw;
 	max-width: 1600px ;
 	margin: 0 auto;
+	background: var(--color-background);
+	color: inherit;
 }
 
 header {
@@ -29,6 +31,7 @@ header {
 	flex-direction: column;
 	justify-content: space-between;
 	position:relative;
+	z-index: 3;
 }
 
 .header__x-line {
@@ -51,12 +54,19 @@ header {
 	font-weight: 400;
 	background: var(--color-background);
 	position: absolute;
+	transform: translateY(-100%);
+	z-index: 2;
 }
 
-.toogle-display {
-	display: none;
 
+
+/* .toogle-display-open {			TODO add reverse drawer animation */
+	/* animation: drawerSlideDown 400ms ease forwards;
 }
+.toogle-display-close {		
+	animation: drawerSlideDown 400ms ease reverse forwards
+}; */
+
 
 .header__nav {
 	display: flex;

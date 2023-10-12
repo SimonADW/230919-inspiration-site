@@ -115,6 +115,29 @@ animation: x-animation-bottom 400ms ease-in-out 100ms forwards;
 	}
 }
 
+/*  Drawer(nav) animation */
+
+@keyframes drawerSlideDown {
+	0% {
+		transform: translateY(-100%)
+	}
+	
+	100% {
+		transform: translateY(0%)
+		
+	}
+}
+
+@keyframes drawerSlideUp {
+	0% {
+		transform: translateY(0%)
+	}
+	
+	100% {
+		transform: translateY(-100%)
+		
+	}
+}
 
 /* popout on hover animation */
 
@@ -125,4 +148,5 @@ animation: x-animation-bottom 400ms ease-in-out 100ms forwards;
 .image-caption-pair:hover {
 	transform: scale(1.02);
 }
+
 
