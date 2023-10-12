@@ -1,11 +1,11 @@
 
-## README - Inspiration site
+## README - Semester assignment 2 - Inspiration site
 
 
 ### What the project does  
 Establish a collection of inspirational sites in this one site.  
 
-![Screenshot of initial draft](./assets/images/Winspiration-draft-screenshot.png))
+![Screenshot of initial draft](./assets/images/Winspiration-draft-screenshot.png)
 
 ### Why the project is useful  
 As one of four projects for this term, the goal is to both harvest inspiration, get familiar with norwegian front-end companies and gain prototype- and coding-practice.
@@ -29,6 +29,13 @@ Contributors:
 	* [hoverstat.es](https://www.hoverstat.es/)
 	* [Giulio Cuscito](https://dribbble.com/Giulio_Cuscito)
 
+### License  
+License is found in the [Lincese.txt](License.txt) in the [:root folder][] 
 
+### Related links
+Netlify: [Semesterassignment 2 - Inspiration site](https://frabjous-pithivier-a0f6f5.netlify.app)  
+GitHub: [Inspiration site repository](https://github.com/SimonADW/230919-inspiration-site)
+
+MIT © [Simon Winter](https://github.com/SimonADW)  
 
 [:root folder]: ./

@@ -26,32 +26,19 @@ hamburger.addEventListener("click", ()=> {
 
 // Clips play on parent hover
 
-const playClip = function (clipNumber) {
-	let clip = document.getElementById(`clip${clipNumber}`);
-	clip.play(clipNumber)
-}
+const imageCaptionPairs = document.querySelectorAll(".image-caption-pair");
 
-const pauseClip = function (clipNumber) {
-	let clip = document.getElementById(`clip${clipNumber}`);
-	clip.pause(clipNumber)
-}	
+function playClip() {
+	const clip = this.querySelector("video");
+	clip.play();
+};
 
+function pauseClip() {
+	const clip = this.querySelector("video");
+	clip.pause();
+};
 
-// TODO: Dynamically asign clipNumber to Evenlistener (Loop ?)
-
-	// Targeting video element  
-let section = document.getElementById("pair3");
-
-	/* Applying mouseover event on video clip  
-	and then we call play() */ 
-
- section.addEventListener("mouseover", function (e) { 
-	 playClip(3) 
- }) 
-
-	/* Applying mouseout event on video clip  
-	and then we call pause()  */ 
-
- section.addEventListener("mouseout", function (e) { 
-	pauseClip(3); 
- }) 
+imageCaptionPairs.forEach(pair => { 
+	pair.addEventListener("mouseover", playClip);
+	pair.addEventListener("mouseout", pauseClip);	
+});
