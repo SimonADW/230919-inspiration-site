@@ -11,4 +11,10 @@ img {
 
 a {
 	color: inherit;
+	text-decoration: none;
+}
+
+button {
+	background: transparent;
+	border-style: none;
 }

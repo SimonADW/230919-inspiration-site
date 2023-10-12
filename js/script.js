@@ -24,7 +24,7 @@ hamburger.addEventListener("click", ()=> {
 });
 
 
-// Clips play on parent hover
+// Clips play on parent hover TODO: Devtools return error, but hover works.?
 
 const imageCaptionPairs = document.querySelectorAll(".image-caption-pair");
 
@@ -42,3 +42,27 @@ imageCaptionPairs.forEach(pair => {
 	pair.addEventListener("mouseover", playClip);
 	pair.addEventListener("mouseout", pauseClip);	
 });
+
+// Dark / Light mode
+
+const toggleDarkButton = document.querySelector(".mode");
+let isDark = false;
+function toggleDark() {
+	if(!isDark) {
+		const root = document.documentElement;
+		root.style.setProperty("--color-background", "#162e42");
+		root.style.setProperty("--color-foreground", "#eef0de");
+		root.style.setProperty("--color-primary", "linear-gradient(to left, #53442a, #362d2d)");
+		document.querySelector(".mode").textContent = "Light";
+		isDark = true;
+	} else {
+		const root = document.documentElement;
+		root.style.setProperty("--color-background", "white",);
+		root.style.setProperty("--color-foreground", "black");
+		root.style.setProperty("--color-primary", "#F1EADE");
+		document.querySelector(".mode").textContent = "Dark";
+		isDark = false;
+	}
+}
+
+toggleDarkButton.addEventListener("click", toggleDark);
