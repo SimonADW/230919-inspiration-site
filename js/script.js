@@ -45,6 +45,10 @@ imageCaptionPairs.forEach(pair => {
 
 // Dark / Light mode
 
+/** 
+ * Toggles dark/light modes
+ * @function 
+ * @returns boolean */
 const toggleDarkButton = document.querySelector(".mode");
 let isDark = false;
 function toggleDark() {
