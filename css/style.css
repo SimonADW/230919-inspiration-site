@@ -177,13 +177,12 @@ footer {
 	transform: scale(1.2);
 }
 
-/*  Desktop  */
+
+
+/*  Tablet / Desktop / Landscape  */
 
 @media screen and (min-width: 800px) {
 
-	:root {
-		font-size: var(--desktop-font-size-base);
-	}
 	
 	.headings h1 {
 		font-size: 2rem;
@@ -216,7 +215,9 @@ footer {
 		padding: 30px;
 	}
 
-	.mode {
+	.mode {		
+		width: 54px;
+		height: 30px;
 		font-size: var(--font-size-base);	
 		transform: translate(0, 15rem);
 		margin-left: none;	
@@ -228,3 +229,11 @@ footer {
 
 	}
 }
+
+/* Desktop */
+@media screen and (min-width: 1210px) {
+	:root {
+		font-size: var(--desktop-font-size-base);
+	}		
+}
+
