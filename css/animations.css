@@ -126,15 +126,4 @@
 	}
 }
 
-/* popout on hover animation | TODO reconsider this animation
-
-.image-caption-pair {
-	transition: all 300ms ease-in-out;
-}
-
-.image-caption-pair:hover {
-	transform: scale(1.02);
-}
-
- */
 
