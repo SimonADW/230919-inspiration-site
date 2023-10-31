@@ -24,7 +24,7 @@ hamburger.addEventListener("click", ()=> {
 });
 
 
-// Clips play on parent hover TODO: Devtools return error, but hover works.?
+// Clips play on parent hover @TODO: Devtools return error, but hover works.?
 
 const imageCaptionPairs = document.querySelectorAll(".image-caption-pair");
 
